@@ -1,7 +1,7 @@
 FROM php:5.6-apache
 MAINTAINER J FROMENT
 
-ENV VERSION 6.0.1
+ENV VERSION 6.0.3
 
 RUN apt-get update && apt-get install -y libpng12-dev libjpeg-dev libldap2-dev \
     && rm -rf /var/lib/apt/lists/* \
